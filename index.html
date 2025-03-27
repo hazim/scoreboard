@@ -1,28 +1,31 @@
 <html>
-    <head>
-        <link rel="stylesheet" href="index.css">
-    </head>
-    <body>
-        <div class="container">
-            <div>
-                <h3 class="heading">HOME</h3>
-                <h2 class="score" id="home-el">0</h2>
-                <div class="btn-container">
-                    <button class="custom-btn" onclick="hPlusOne()">+1</button>
-                    <button class="custom-btn" onclick="hPlusTwo()">+2</button>
-                    <button class="custom-btn" onclick="hPlusThree()">+3</button>
-                </div>
-            </div>
-            <div>
-                <h3 class="heading">GUEST</h3>
-                <h2 class="score" id="guest-el">0</h2>
-                <div class="btn-container">
-                    <button class="custom-btn" onclick="gPlusOne()">+1</button>
-                    <button class="custom-btn" onclick="gPlusTwo()">+2</button>
-                    <button class="custom-btn" onclick="gPlusThree()">+3</button>
-                </div>
+
+<head>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="container">
+        <div>
+            <h3 class="heading">HOME</h3>
+            <h2 class="score" id="home-el">0</h2>
+            <div class="btn-container">
+                <button class="custom-btn" onclick="hPlusOne()">+1</button>
+                <button class="custom-btn" onclick="hPlusTwo()">+2</button>
+                <button class="custom-btn" onclick="hPlusThree()">+3</button>
             </div>
         </div>
-        <script src="index.js"></script>
-    </body>
+        <div>
+            <h3 class="heading">AWAY</h3>
+            <h2 class="score" id="guest-el">0</h2>
+            <div class="btn-container">
+                <button class="custom-btn" onclick="gPlusOne()">+1</button>
+                <button class="custom-btn" onclick="gPlusTwo()">+2</button>
+                <button class="custom-btn" onclick="gPlusThree()">+3</button>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
 </html>
